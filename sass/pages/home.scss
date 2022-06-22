@@ -1,0 +1,222 @@
+@media (min-width:700px) and (max-width:900px){    
+    section#area-sobre div{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .conteiner-proj{
+        width: 400px;
+        height: auto;
+    }
+    #area-contatos{
+        flex-direction: column;
+    }
+    .form{
+        align-items: center;
+        height: auto;
+    }
+    .form-gif {
+        height: 500px;
+    }
+}
+
+@media (min-width:500px) and (max-width:722px){
+    section#area-sobre div{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .conteiner-proj{
+        width: 400px;
+        height: auto;
+    }
+    #area-contatos{
+        flex-direction: column;
+    }
+    .form{
+        align-items: center;
+        height: auto;
+    }
+    .form-gif{
+        height: 500px;
+    }
+    nav{
+        position: absolute;
+        width: 0;
+        background-color: #1e223e91;
+        top: 100px;
+        right: 0;
+        border-radius: 30px;
+        z-index: 99;
+        font-size: 15px;
+        transition: all 1.3s ease;
+    }
+    .menu-opened{
+        
+        position: absolute;
+        right: 15px;
+    }
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    #menu li a{
+        border: 0;
+        font-size: 15px;
+        font-weight: bold;
+        height: 80px;
+        padding-left: 10px;
+    }
+    #menu .active a {
+        color:#04D361;
+        border: 0;
+        cursor: pointer;
+    }
+    .menu-opened{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu{
+        justify-content: start;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    footer{
+        justify-content: space-around;
+    }
+    .footer-by{
+        margin-right:0;
+    }
+    .footer-area-social {
+        display: flex;
+        margin: 10px 0 10px 0;
+    }
+}
+
+@media (max-width:499px) {
+    #area-apr{
+        width: 350px;
+        height: 500px;
+    }
+    #area-apr #foto {
+        width: 200px;
+        height: 200px;
+    }
+    #area-apr h1{
+        font-size: 25px;
+    }
+    #area-apr h2{
+        font-size: 18px;
+    }
+    section#rea-sobre div{
+        flex-direction: column;
+    }
+    section#area-sobre h1, 
+    #area-lingua  h1, 
+    #area-proj h1,
+    .form h1{
+    font-size: 30px;
+    }
+    .html:hover{
+        width: 150px;
+        background-color: #FC490B;
+    }
+    .css:hover{
+        width: 150px;
+        background-color: #2196F3;
+    }
+    .js:hover{
+        width: 150px;
+        background-color: #FFDF00;
+    }
+    .icone img:hover{
+        transform: rotateY(180deg);
+        transition: all 2s ease;
+        transform: rotateY(-180deg);
+    }
+    .conteiner-proj{
+        width: 400px;
+        height: auto;
+    }
+    #area-contatos{
+        flex-direction: column;
+    }
+    section #area-sobretxt h2{
+        font-size: 30px;
+    }
+    section#area-sobre p{
+        width: 280px;
+        font-size: 12px;
+    }
+    section#area-sobre div{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .area-anime{
+        width: auto;
+    }
+    .form{
+        align-items: center;
+        height: auto;
+    }
+    .form-gif{
+        height: 500px;
+    }
+    nav{
+        position: absolute;
+        width: 0;
+        background-color: #1e223e91;
+        right: 0;
+        font-size: 15px;
+        transition: all 0.7s ease-in-out;
+        top:100px;
+        border-radius: 30px;
+        z-index: 99;
+    }
+    .menu-opened{   
+        position: absolute;
+        right: 15px;
+    }
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    #menu li a{
+        border: 0;
+        font-size: 15px;
+        font-weight: bold;
+        height: 80px;
+        padding-left: 10px;
+    }
+    #menu .active a {
+        color:#04D361;
+        border: 0;
+        cursor: pointer;
+    }
+    .menu-opened{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #menu{
+        justify-content: start;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    footer{
+        justify-content: space-around;
+    }
+    .footer-by{
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .footer-area-social {
+        display: flex;
+        margin: 10px 0 10px 0;
+    }
+}
