@@ -5,7 +5,7 @@ os conhecimentos adquiridos.
 
 ## 📁 Abrir, rodar e acesso ao projeto
 
-Live preview: 
+Live preview: https://higo-ribeiro.netlify.app/
 
 Para você colocar este projeto em funcionamento, basta você clonar este
 projeto ou fazer download e executar o arquivo `index.html` em seu
