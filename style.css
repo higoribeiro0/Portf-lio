@@ -45,7 +45,7 @@ header .row{
 
 header .brand-name a{
     text-decoration: none;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     color: white;
     text-transform: uppercase;
@@ -108,7 +108,7 @@ header .navbar ul li a.active::before{
 
 .home{
     min-height: 100vh;
-    background-image: url("images/cup-of-coffee-1280537_960_720\ \(2\).webp");
+    background-image: url("images/4272479-programacao-codigo-codificacao.jpg");
     background-size: cover;
     background-position: center;
     padding: 15px; 
@@ -136,7 +136,7 @@ header .navbar ul li a.active::before{
 
 .home .home-content .block h6{
     color: white;
-    font-size: 20px;
+    font-size: 27px;
     font-weight: 500;
     margin: 0;
     padding: 0;
@@ -145,7 +145,7 @@ header .navbar ul li a.active::before{
 
 .home .home-content .block h1{
     color: white;
-    font-size: 80px;
+    font-size: 78px;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -154,7 +154,7 @@ header .navbar ul li a.active::before{
 
 .home .home-content .block h3{
     color: white;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -743,7 +743,7 @@ header .navbar ul li a.active::before{
 /* rodapé */
 
 footer{
-    padding: 80px 15px;
+    padding: 8px 15px;
     background-color: #0c0c17;
 }
 
@@ -752,7 +752,7 @@ footer .logo{
     max-width: 100%;
     text-align: center;
     font-size: 45px;
-    color: #ffffff;
+    color: white;
     font-weight: 900;
 }
 
@@ -788,12 +788,12 @@ footer .social a:hover{
     margin: 0;
     text-align: center;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .ham-burger .fa{
-    font-size: 20px;
-    height: 30px;
+    font-size: 30px;
+    height: 40px;
     width: 35px;
     background-color: #ffffff;
     color: #000000;
